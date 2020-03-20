@@ -1,0 +1,36 @@
+/*
+Gabriel Lopes dos Santos
+Lucas Gutierrez Villas Boas
+Paulo Eduardo Paes Salomon
+Pedro Felipe Dominguite
+
+Based on: Flex & Bison, published by O'Reilly.
+*/
+
+funcao fib(n) {
+    cont = 0;
+    aux1 = 0;
+    aux2 = 1;
+    se(n == 0) {
+        n = 0;
+    } senao {
+        se (n == 1) {
+            n = 1;
+        } senao {
+            enquanto(cont < n) {
+                ans = aux1 + aux2;
+                aux2 = aux1;
+                aux1 = ans;
+                cont = cont + 1;
+            }
+        n = ans;
+        }
+    }
+    n;    
+}
+
+principal () {
+    escreva("Fibonacci of:");
+    leia(n);
+    escreva(fib(n));
+}

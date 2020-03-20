@@ -1,0 +1,31 @@
+/*
+Gabriel Lopes dos Santos
+Lucas Gutierrez Villas Boas
+Paulo Eduardo Paes Salomon
+Pedro Felipe Dominguite
+
+Based on: Flex & Bison, published by O'Reilly.
+*/
+
+funcao mul(a, b) {
+    a * b;
+}
+
+funcao fat(n) {
+    i = n-1;
+    se((i == 0) OU (i == -1)) {
+        n = 1;
+    } senao {
+        enquanto (i > 1) {
+            n = mul(n, i);
+            i = i-1;
+        }
+    }
+    n;
+}
+
+principal () {
+    escreva("Factorial of:");
+    leia(n);
+    escreva(fat(n));
+}

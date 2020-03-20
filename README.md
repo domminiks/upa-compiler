@@ -56,6 +56,6 @@ $ ./upa ./examples/ex2.upa
 $ ./upa ./examples/test.upa
 ```
 
-## References
+# References
 
 This work was vastly based on [**flex & bison**:  Text Processing Tools](https://books.google.com.br/books?id=3Sr1V5J9_qMC&lpg=PP1&dq=flex%20bison%20o'reilly&hl=pt-BR&pg=PP1#v=onepage&q=flex%20bison%20o'reilly&f=false), by John Levine, published by O'Reilly Media, Inc and its GitHub [repo](https://github.com/mbbill/flexbison/tree/master/flexbison).

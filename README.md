@@ -48,12 +48,12 @@ $ cc -g -o upa upa.tab.c lex.yy.c upa.c -ll
 Under */src/examples* you will find some examples for better understanding of language syntax. Just like a normal compiler, the code can be compiled and executed as it follows (from the *src* directory):
 
 ```shell
-$ ./upa ./examples/ex1.upa
-$ ./upa ./examples/ex2.upa
+$ upa ./examples/ex1.upa
+$ upa ./examples/ex2.upa
 ```
 
 ```shell
-$ ./upa ./examples/test.upa
+$ upa ./examples/test.upa
 ```
 
 # References
